@@ -33,3 +33,37 @@ body{
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
+
+#newtask input{
+    width: 70%;
+    width: 70%;
+    height: 45px;
+    font-family: 'poppins' ,sans-serif;
+    font-size: 15px;
+    border: 2px solid;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #51034b;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'poppins' ,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgb(100, 9, 116);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
